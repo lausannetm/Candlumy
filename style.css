@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans New Tai Lue', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9e7ec;
+    color: black;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("Cans front.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    padding: 5px 10%;
+    background-color: #f9e7ec;
+}
+
+nav {
+    background-color: #f9e7ec;
+}
+
+#pazar {
+    cursor: pointer;
+    font-size: 20px;
+ }
+
+.drip, .dripw, .drop {
+    width: 60px;
+    position: absolute;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    box-shadow: 0 0 150px inset #f9e7ec;
+    background: #f9e7ec;
+}
+
+.melt, .melta, .meltb, .meltc, .meltd, .melte, .meltf, .meltg, .melth, .melti, .meltj, .meltk, .meltl, .meltm, .meltn {
+    width: 30px;
+    position: absolute;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 0 150px inset #f9e7ec;
+    background: #f9e7ec;
+}
+
+.melt {
+    height: 71px;
+    top: 75px;
+    left: 3%;
+    animation: animation-melt 3s linear;
+}
+
+@keyframes animation-melt {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 71px;
+    }
+}
+
+.melta {
+    height: 35px;
+    top: 75px;
+    left: 8%;
+    animation: animation-melta 3s linear;
+}
+
+@keyframes animation-melta {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 35px;
+    }
+}
+
+.meltb {
+    height: 24px;
+    top: 75px;
+    left: 12%;
+    animation: animation-meltb 3s linear;
+}
+
+@keyframes animation-meltb {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 24px;
+    }
+}
+
+.meltc {
+    height: 80px;
+    top: 75px;
+    left: 24%;
+    animation: animation-meltc 3s linear;
+}
+
+@keyframes animation-meltc {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 80px;
+    }
+}
+
+.meltd {
+    height: 24px;
+    top: 75px;
+    left: 28%;
+    animation: animation-meltd 3s linear;
+}
+
+@keyframes animation-meltd {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 24px;
+    }
+}
+
+.melte {
+    height: 37px;
+    top: 75px;
+    left: 32%;
+    animation: animation-melte 3s linear;
+}
+
+@keyframes animation-melte {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 37px;
+    }
+}
+
+.meltf {
+    height: 24px;
+    top: 75px;
+    left: 43%;
+    animation: animation-meltf 3s linear;
+}
+
+@keyframes animation-meltf {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 24px;
+    }
+}
+
+.meltg {
+    height: 71px;
+    top: 75px;
+    left: 48%;
+    animation: animation-meltg 3s linear;
+}
+
+@keyframes animation-meltg {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 71px;
+    }
+}
+
+.melth {
+    height: 24px;
+    top: 75px;
+    left: 53%;
+    animation: animation-meltf 3s linear;
+}
+
+@keyframes animation-melth {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 24px;
+    }
+}
+
+.melti {
+    height: 35px;
+    top: 75px;
+    left: 58%;
+    animation: animation-melti 3s linear;
+}
+
+@keyframes animation-melti {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 35px;
+    }
+}
+
+.meltj {
+    height: 80px;
+    top: 75px;
+    left: 64%;
+    animation: animation-meltj 3s linear;
+}
+
+@keyframes animation-meltj {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 80px;
+    }
+}
+
+.meltk {
+    height: 40px;
+    top: 75px;
+    left: 77%;
+    animation: animation-meltk 3s linear;
+}
+
+@keyframes animation-meltk {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 40px;
+    }
+}
+
+.meltl {
+    height: 80px;
+    top: 75px;
+    left: 83%;
+    animation: animation-meltl 3s linear;
+}
+
+@keyframes animation-meltl {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 80px;
+    }
+}
+
+.meltm {
+    height: 25px;
+    top: 75px;
+    left: 88%;
+    animation: animation-meltm 3s linear;
+}
+
+@keyframes animation-meltm {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 25px;
+    }
+}
+
+.meltn {
+    height: 40px;
+    top: 75px;
+    left: 93%;
+    animation: animation-meltn 3s linear;
+}
+
+@keyframes animation-meltn {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 40px;
+    }
+}
+
+.drip {
+    height: 35px;
+    top: 75px;
+    left: 16%;
+    animation: animation-drip 3s linear;
+}
+
+.dripw {
+    height: 54px;
+    top: 75px;
+    left: 36%;
+    animation: animation-dripw 3s linear;
+}
+
+.drop {
+    height: 60px;
+    top: 75px;
+    left: 69%;
+    animation: animation-drop 3s linear;
+}
+
+@keyframes animation-drip {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 35px;
+    }
+}
+
+@keyframes animation-dripw {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 54px;
+    }
+}
+
+@keyframes animation-drop {
+    from {
+        height: 3px;
+    }
+    to {
+        height: 60px;
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 200px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #44393c;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: white;
+    width: 100%;
+ }
+
+ #candles {
+    padding: 80px 0;
+    color: #44393c;
+ }
+
+ .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .about-col-1 {
+    flex-basis: 50%;
+ }
+
+ .about-col-1 img {
+    width: 100%;
+    border-radius: 5px;
+ }
+
+ .about-col-2 {
+    flex-basis: 30%;
+ }
+
+ .subtitle {
+    font-size: 40px;
+    font-weight: 600;
+    color:#44393c;
+    text-align: center;
+ }
+
+ h1 {
+    text-align: center;
+ }
+
+ p {
+    text-align: center;
+ }
+
+.footer {
+    background-color: #ebd7d8;
+    padding: 70px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.containerf {
+    background-color: #ebd7d8;
+    padding: 30px 400px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+    color: #44393c;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: #44393c;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+    padding-left: 5px;
+}
+
+.footer-col ul i {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 5px;
+    color: #44393c;
+    display: inline-block;
+    transition: transform 0.5s;
+}
